@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b67ff48d-50b8-4bf1-a103-10b672edbcf0" name="Changes" comment="add &amp; delete guest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b67ff48d-50b8-4bf1-a103-10b672edbcf0" name="Changes" comment="change workspace" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/pokhi/OneDrive/Escritorio/TiendaVideojuegos",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -95,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716025508737</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change workspace">
+      <created>1716032086280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716032086280</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,7 +118,8 @@
     <MESSAGE value="add &amp; delete bicycle" />
     <MESSAGE value="(bugged) modify bicycle" />
     <MESSAGE value="add &amp; delete guest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add &amp; delete guest" />
+    <MESSAGE value="change workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="change workspace" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hotel2$Main.ic" NAME="Main Coverage Results" MODIFIED="1715998293030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
