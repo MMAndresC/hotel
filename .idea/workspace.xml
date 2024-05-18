@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b67ff48d-50b8-4bf1-a103-10b672edbcf0" name="Changes" comment="add &amp; delete bicycle">
+    <list default="true" id="b67ff48d-50b8-4bf1-a103-10b672edbcf0" name="Changes" comment="(bugged) modify bicycle">
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/AddGuestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/DeleteGuestServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/BicycleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/BicycleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ModifyBicycleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/ModifyBicycleServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/details-bicycle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/details-bicycle.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/guest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/guest.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/GradoDAM/Java/hotel2/src/main/webapp",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GradoDAM/Java/hotel2/src/main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GradoDAM\Java\hotel2\src\main" />
       <recent name="D:\GradoDAM\Java\hotel2\src\main\webapp" />
       <recent name="D:\GradoDAM\Java\hotel2\src\main\java\domain" />
       <recent name="D:\GradoDAM\Java\hotel2\src\main\java\dao" />
@@ -84,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715989252160</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="(bugged) modify bicycle">
+      <created>1715996766251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715996766251</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +109,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add &amp; delete bicycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="add &amp; delete bicycle" />
+    <MESSAGE value="(bugged) modify bicycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="(bugged) modify bicycle" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hotel2$Main.ic" NAME="Main Coverage Results" MODIFIED="1715998293030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

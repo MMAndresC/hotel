@@ -9,10 +9,12 @@
         int cod = Integer.parseInt(request.getParameter("cod"));
         Database database = new Database();
         BicycleDao bicycleDao = new BicycleDao(database.getConnection());
+
         try{
             Bicycle bicycle = bicycleDao.findByCod(cod);
             if(bicycle.getCod() != -1){
     %>
+    <img src="../hotel-data/<%  request.getRequestURL(); %>" alt="bicycle image"  class="img-fluid "/>
     <section class="border border-1 p-5 rounded">
         <form id="formModifyBicycle" action="modify-bicycle" method="post">
             <input name="cod" type="hidden" class="form-control w-25" id="cod"  value="<% bicycle.getCod(); %>"/>
@@ -46,7 +48,7 @@
                 </div>
             </div>
             <div class="col-6 d-flex justify-content-center">
-                <img src="../hotel-data/<% bicycle.getImage(); %>>" alt="bicycle image" id="img" class="img-fluid "/>
+                <img src="../hotel-data/<% bicycle.getImage(); %>" alt="bicycle image" id="img" class="img-fluid "/>
             </div>
             <input type="hidden" class="form-control" id="image" name="image" value="<% bicycle.getImage(); %>"/>
             <div class="col-6 d-flex flex-column justify-content-center">
@@ -62,7 +64,7 @@
                 response.sendRedirect("index.jsp");
             }
         }catch(SQLException sqle){
-            response.sendRedirect("index.jsp");
+            response.sendRedirect("/index.jsp");
         }
     %>
     <div id="result"></div>

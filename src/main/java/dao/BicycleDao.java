@@ -36,7 +36,7 @@ public class BicycleDao {
 
     public Bicycle findByCod(int cod) throws SQLException {
         String sql = "SELECT * FROM Bicycles WHERE cod_bicycle = ?";
-        Bicycle bicycle = new Bicycle(-1, "", "", "", "", "");
+        Bicycle bicycle = new Bicycle(-1, " ", " ", " ", " ", " ");
 
         PreparedStatement statement = connection.prepareStatement(sql);
         statement.setInt(1, cod);
