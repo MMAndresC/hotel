@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b67ff48d-50b8-4bf1-a103-10b672edbcf0" name="Changes" comment="change workspace" />
+    <list default="true" id="b67ff48d-50b8-4bf1-a103-10b672edbcf0" name="Changes" comment="change workspace">
+      <change afterPath="$PROJECT_DIR$/BD-crearTablas.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD-parametrizacion.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD-practicas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Casos de uso.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Diagrama de uso.drawio.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wireframe Rent Bicycle.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagramaClases.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -34,16 +48,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/pokhi/OneDrive/Escritorio/TiendaVideojuegos",
+    "last_opened_file_path": "D:/GradoDAM/Java/hotel2",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GradoDAM\Java\hotel2" />
       <recent name="D:\GradoDAM\Java\hotel2\src\main" />
       <recent name="D:\GradoDAM\Java\hotel2\src\main\webapp" />
       <recent name="D:\GradoDAM\Java\hotel2\src\main\java\domain" />
       <recent name="D:\GradoDAM\Java\hotel2\src\main\java\dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GradoDAM\Java\hotel2" />
+      <recent name="D:\GradoDAM\Java\hotel2\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
