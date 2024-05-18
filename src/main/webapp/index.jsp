@@ -95,7 +95,7 @@
                     </div>
                 </div>
                 <div class="col-6 d-flex justify-content-center">
-                    <img src="../assets/default_bicycle.jpg" alt="default bicycle" id="img" class="img-fluid "/>
+                    <img src="../hotel-data/default_bicycle.jpg" alt="default bicycle" id="img" class="img-fluid "/>
                 </div>
                 <div class="col-6 d-flex flex-column justify-content-center">
                     <label for="image" class="form-label">Image</label>

@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b67ff48d-50b8-4bf1-a103-10b672edbcf0" name="Changes" comment="change workspace">
-      <change afterPath="$PROJECT_DIR$/BD-crearTablas.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD-parametrizacion.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BD-practicas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Casos de uso.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Diagrama de uso.drawio.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wireframe Rent Bicycle.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diagramaClases.jpg" afterDir="false" />
+    <list default="true" id="b67ff48d-50b8-4bf1-a103-10b672edbcf0" name="Changes" comment="add extra docs">
+      <change afterPath="$PROJECT_DIR$/src/main/SASS.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -43,15 +42,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/GradoDAM/Java/hotel2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GradoDAM/Java/hotel2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GradoDAM\Java\hotel2" />

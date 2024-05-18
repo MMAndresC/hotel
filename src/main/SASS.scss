@@ -1,0 +1,9 @@
+@mixin card($height, $width){
+height:$height;
+width:$width;
+background-color:(#b7909d);
+}
+@mixin font({
+font size:18px;
+color:(black);
+}
