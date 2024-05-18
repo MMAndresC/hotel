@@ -27,7 +27,7 @@
                         </div>
                         <div class="col-12 col-md-2 ms-md-2 text-truncate mt-2 d-flex justify-content-center">
                             <button type="button" class="btn me-3">
-                                <a href="details-bicycle.jsp?cod=<%=bicycle.getCod()%>">
+                                <a href="details-bicycle.jsp?cod=<%= bicycle.getCod() %>">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                          class="bi bi-pen" viewBox="0 0 16 16">
                                         <path

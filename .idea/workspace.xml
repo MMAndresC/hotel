@@ -4,30 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b67ff48d-50b8-4bf1-a103-10b672edbcf0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BicycleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/GuestDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/AddBicycleServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/DeleteBicycleServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/ModifyBicycleServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/details-bicycle.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/guest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/includes/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/includes/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/includes/header2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="b67ff48d-50b8-4bf1-a103-10b672edbcf0" name="Changes" comment="add &amp; delete bicycle">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/BicycleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/BicycleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ModifyBicycleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/ModifyBicycleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/details-bicycle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/details-bicycle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +50,23 @@
       <recent name="D:\GradoDAM\Java\hotel2\src\main\java\domain" />
       <recent name="D:\GradoDAM\Java\hotel2\src\main\java\dao" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="hotel" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,6 +77,14 @@
       <option name="presentableId" value="Default" />
       <updated>1715984521582</updated>
     </task>
+    <task id="LOCAL-00001" summary="add &amp; delete bicycle">
+      <created>1715989252160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715989252160</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add &amp; delete bicycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="add &amp; delete bicycle" />
   </component>
 </project>

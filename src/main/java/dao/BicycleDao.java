@@ -34,28 +34,28 @@ public class BicycleDao {
         return bicycles;
     }
 
-    public Optional<Bicycle> findByCod(int cod) throws SQLException {
+    public Bicycle findByCod(int cod) throws SQLException {
         String sql = "SELECT * FROM Bicycles WHERE cod_bicycle = ?";
-        Bicycle bicycle = null;
+        Bicycle bicycle = new Bicycle(-1, "", "", "", "", "");
 
         PreparedStatement statement = connection.prepareStatement(sql);
         statement.setInt(1, cod);
         ResultSet resultSet = statement.executeQuery();
         if (resultSet.next()) {
-            bicycle = new Bicycle();
             bicycle.setCod(resultSet.getInt("cod_bicycle"));
             bicycle.setBrand(resultSet.getString("brand"));
             bicycle.setModel(resultSet.getString("model_bicycle"));
             bicycle.setType(resultSet.getString("type_bicycle"));
             bicycle.setSize(resultSet.getString("size_bicycle"));
+            bicycle.setImage(resultSet.getString("image"));
         }
 
-        return Optional.ofNullable(bicycle);
+        return bicycle;
     }
 
     private boolean existBicycle(int cod) throws SQLException {
-        Optional<Bicycle> bicycle = findByCod(cod);
-        return bicycle.isPresent();
+        Bicycle bicycle = findByCod(cod);
+        return bicycle.getCod() == -1;
     }
 
     private int nextIndex() throws SQLException {
